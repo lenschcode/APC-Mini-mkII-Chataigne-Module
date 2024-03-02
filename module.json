@@ -1,0 +1,478 @@
+{
+	"name":"APC mini mkII",
+	"type":"MIDI",
+	"path":"Hardware",
+	
+	"version":"1.0.0",
+	"description":"Special MIDI Module for the APC Mini mkII MIDI Controller",
+	"url":"https://github.com/lenschcode/APC-Mini-mkII-Chataigne-Module",
+	"downloadURL":"https://github.com/lenschcode/APC-Mini-mkII-Chataigne-Module/archive/master.zip",
+
+	"hasInput":true,
+	"hasOutput":true, 
+
+	"hideDefaultCommands":true,
+
+	"parameters":
+	{
+		"Colors":
+		{
+			"type": "Container",
+			"collapsed":false,
+
+			"Main Buttons":
+			{
+				"type": "Container",
+				"collapsed":true,
+
+				"Button 1.1": { "type": "Color"},
+				"Button 1.2": { "type": "Color"},
+				"Button 1.3": { "type": "Color"},
+				"Button 1.4": { "type": "Color"},
+				"Button 1.5": { "type": "Color"},
+				"Button 1.6": { "type": "Color"},
+				"Button 1.7": { "type": "Color"},
+				"Button 1.8": { "type": "Color"},
+
+				"Button 2.1": { "type": "Color"},
+				"Button 2.2": { "type": "Color"},
+				"Button 2.3": { "type": "Color"},
+				"Button 2.4": { "type": "Color"},
+				"Button 2.5": { "type": "Color"},
+				"Button 2.6": { "type": "Color"},
+				"Button 2.7": { "type": "Color"},
+				"Button 2.8": { "type": "Color"},
+
+				"Button 3.1": { "type": "Color"},
+				"Button 3.2": { "type": "Color"},
+				"Button 3.3": { "type": "Color"},
+				"Button 3.4": { "type": "Color"},
+				"Button 3.5": { "type": "Color"},
+				"Button 3.6": { "type": "Color"},
+				"Button 3.7": { "type": "Color"},
+				"Button 3.8": { "type": "Color"},
+
+				"Button 4.1": { "type": "Color"},
+				"Button 4.2": { "type": "Color"},
+				"Button 4.3": { "type": "Color"},
+				"Button 4.4": { "type": "Color"},
+				"Button 4.5": { "type": "Color"},
+				"Button 4.6": { "type": "Color"},
+				"Button 4.7": { "type": "Color"},
+				"Button 4.8": { "type": "Color"},
+
+				"Button 5.1": { "type": "Color"},
+				"Button 5.2": { "type": "Color"},
+				"Button 5.3": { "type": "Color"},
+				"Button 5.4": { "type": "Color"},
+				"Button 5.5": { "type": "Color"},
+				"Button 5.6": { "type": "Color"},
+				"Button 5.7": { "type": "Color"},
+				"Button 5.8": { "type": "Color"},
+
+				"Button 6.1": { "type": "Color"},
+				"Button 6.2": { "type": "Color"},
+				"Button 6.3": { "type": "Color"},
+				"Button 6.4": { "type": "Color"},
+				"Button 6.5": { "type": "Color"},
+				"Button 6.6": { "type": "Color"},
+				"Button 6.7": { "type": "Color"},
+				"Button 6.8": { "type": "Color"},
+
+				"Button 7.1": { "type": "Color"},
+				"Button 7.2": { "type": "Color"},
+				"Button 7.3": { "type": "Color"},
+				"Button 7.4": { "type": "Color"},
+				"Button 7.5": { "type": "Color"},
+				"Button 7.6": { "type": "Color"},
+				"Button 7.7": { "type": "Color"},
+				"Button 7.8": { "type": "Color"},
+
+				"Button 8.1": { "type": "Color"},
+				"Button 8.2": { "type": "Color"},
+				"Button 8.3": { "type": "Color"},
+				"Button 8.4": { "type": "Color"},
+				"Button 8.5": { "type": "Color"},
+				"Button 8.6": { "type": "Color"},
+				"Button 8.7": { "type": "Color"},
+				"Button 8.8": { "type": "Color"}
+			},
+
+			"Side Buttons":
+			{
+				"type": "Container",
+				"collapsed":true,
+
+				"Side Button 1": { "type": "Color"},
+				"Side Button 2": { "type": "Color"},
+				"Side Button 3": { "type": "Color"},
+				"Side Button 4": { "type": "Color"},
+				"Side Button 5": { "type": "Color"},
+				"Side Button 6": { "type": "Color"},
+				"Side Button 7": { "type": "Color"},
+				"Side Button 8": { "type": "Color"}
+			},
+
+			"Bottom Buttons":
+			{
+				"type": "Container",
+				"collapsed":true,
+
+				"Bottom Button 1": { "type": "Color"},
+				"Bottom Button 2": { "type": "Color"},
+				"Bottom Button 3": { "type": "Color"},
+				"Bottom Button 4": { "type": "Color"},
+				"Bottom Button 5": { "type": "Color"},
+				"Bottom Button 6": { "type": "Color"},
+				"Bottom Button 7": { "type": "Color"},
+				"Bottom Button 8": { "type": "Color"},
+				"Bottom Button 9": { "type": "Color"}
+			}
+		},
+		
+		"Pulsing":
+		{
+			"type": "Container",
+			"collapsed":false,
+
+			"Main Buttons":
+			{
+				"type":"Container",
+				"collapsed":true,
+
+				"Button 1.1": { "type": "Boolean"},
+				"Button 1.2": { "type": "Boolean"},
+				"Button 1.3": { "type": "Boolean"},
+				"Button 1.4": { "type": "Boolean"},
+				"Button 1.5": { "type": "Boolean"},
+				"Button 1.6": { "type": "Boolean"},
+				"Button 1.7": { "type": "Boolean"},
+				"Button 1.8": { "type": "Boolean"},
+
+				"Button 2.1": { "type": "Boolean"},
+				"Button 2.2": { "type": "Boolean"},
+				"Button 2.3": { "type": "Boolean"},
+				"Button 2.4": { "type": "Boolean"},
+				"Button 2.5": { "type": "Boolean"},
+				"Button 2.6": { "type": "Boolean"},
+				"Button 2.7": { "type": "Boolean"},
+				"Button 2.8": { "type": "Boolean"},
+
+				"Button 3.1": { "type": "Boolean"},
+				"Button 3.2": { "type": "Boolean"},
+				"Button 3.3": { "type": "Boolean"},
+				"Button 3.4": { "type": "Boolean"},
+				"Button 3.5": { "type": "Boolean"},
+				"Button 3.6": { "type": "Boolean"},
+				"Button 3.7": { "type": "Boolean"},
+				"Button 3.8": { "type": "Boolean"},
+
+				"Button 4.1": { "type": "Boolean"},
+				"Button 4.2": { "type": "Boolean"},
+				"Button 4.3": { "type": "Boolean"},
+				"Button 4.4": { "type": "Boolean"},
+				"Button 4.5": { "type": "Boolean"},
+				"Button 4.6": { "type": "Boolean"},
+				"Button 4.7": { "type": "Boolean"},
+				"Button 4.8": { "type": "Boolean"},
+
+				"Button 5.1": { "type": "Boolean"},
+				"Button 5.2": { "type": "Boolean"},
+				"Button 5.3": { "type": "Boolean"},
+				"Button 5.4": { "type": "Boolean"},
+				"Button 5.5": { "type": "Boolean"},
+				"Button 5.6": { "type": "Boolean"},
+				"Button 5.7": { "type": "Boolean"},
+				"Button 5.8": { "type": "Boolean"},
+
+				"Button 6.1": { "type": "Boolean"},
+				"Button 6.2": { "type": "Boolean"},
+				"Button 6.3": { "type": "Boolean"},
+				"Button 6.4": { "type": "Boolean"},
+				"Button 6.5": { "type": "Boolean"},
+				"Button 6.6": { "type": "Boolean"},
+				"Button 6.7": { "type": "Boolean"},
+				"Button 6.8": { "type": "Boolean"},
+
+				"Button 7.1": { "type": "Boolean"},
+				"Button 7.2": { "type": "Boolean"},
+				"Button 7.3": { "type": "Boolean"},
+				"Button 7.4": { "type": "Boolean"},
+				"Button 7.5": { "type": "Boolean"},
+				"Button 7.6": { "type": "Boolean"},
+				"Button 7.7": { "type": "Boolean"},
+				"Button 7.8": { "type": "Boolean"},
+
+				"Button 8.1": { "type": "Boolean"},
+				"Button 8.2": { "type": "Boolean"},
+				"Button 8.3": { "type": "Boolean"},
+				"Button 8.4": { "type": "Boolean"},
+				"Button 8.5": { "type": "Boolean"},
+				"Button 8.6": { "type": "Boolean"},
+				"Button 8.7": { "type": "Boolean"},
+				"Button 8.8": { "type": "Boolean"}
+			},
+
+			"Side Buttons":
+			{
+				"type":"Container",
+				"collapsed":true,
+
+				"Side Button 1":   { "type":"Boolean"},
+				"Side Button 2":   { "type":"Boolean"},
+				"Side Button 3":   { "type":"Boolean"},
+				"Side Button 4":   { "type":"Boolean"},
+				"Side Button 5":   { "type":"Boolean"},
+				"Side Button 6":   { "type":"Boolean"},
+				"Side Button 7":   { "type":"Boolean"},
+				"Side Button 8":   { "type":"Boolean"}
+			},
+
+			"Bottom Buttons":
+			{
+				"type":"Container",
+				"collapsed":true,
+
+				"Bottom Button 1":   { "type":"Boolean"},
+				"Bottom Button 2":   { "type":"Boolean"},
+				"Bottom Button 3":   { "type":"Boolean"},
+				"Bottom Button 4":   { "type":"Boolean"},
+				"Bottom Button 5":   { "type":"Boolean"},
+				"Bottom Button 6":   { "type":"Boolean"},
+				"Bottom Button 7":   { "type":"Boolean"},
+				"Bottom Button 8":   { "type":"Boolean"},
+				"Bottom Button 9":   { "type":"Boolean"}
+			}
+		}
+	},
+
+	"defaults":
+	{		
+		"devices":[
+			"APC mini mkii",
+			"APC mini mkii"
+		],
+		"autoAdd":false
+	},
+
+	"hideDefaultParameters":
+	[
+		"autoAdd",
+		"autoFeedback"
+	],
+
+
+	"scripts":
+	[
+		"APC-mini-mkii.js"
+	],
+
+	"values":
+	{
+		"Faders":
+		{
+			"type":"Container",
+			"collapsed":true,
+
+			"Fader 1": { "type":"Float", "default":0, "min":0, "max":1},
+			"Fader 2": { "type":"Float", "default":0, "min":0, "max":1},
+			"Fader 3": { "type":"Float", "default":0, "min":0, "max":1},
+			"Fader 4": { "type":"Float", "default":0, "min":0, "max":1},
+			"Fader 5": { "type":"Float", "default":0, "min":0, "max":1},
+			"Fader 6": { "type":"Float", "default":0, "min":0, "max":1},
+			"Fader 7": { "type":"Float", "default":0, "min":0, "max":1},
+			"Fader 8": { "type":"Float", "default":0, "min":0, "max":1}
+		},
+
+		"Bottom Buttons":
+		{
+			"type":"Container",
+			"collapsed":true,
+
+			"Bottom Button 1":   { "type":"Boolean"},
+			"Bottom Button 2":   { "type":"Boolean"},
+			"Bottom Button 3":   { "type":"Boolean"},
+			"Bottom Button 4":   { "type":"Boolean"},
+			"Bottom Button 5":   { "type":"Boolean"},
+			"Bottom Button 6":   { "type":"Boolean"},
+			"Bottom Button 7":   { "type":"Boolean"},
+			"Bottom Button 8":   { "type":"Boolean"}
+		},
+
+		"Main Buttons":
+		{
+			"type":"Container",
+			"collapsed":true,
+
+			"Button 1.1": { "type": "Boolean"},
+			"Button 1.2": { "type": "Boolean"},
+			"Button 1.3": { "type": "Boolean"},
+			"Button 1.4": { "type": "Boolean"},
+			"Button 1.5": { "type": "Boolean"},
+			"Button 1.6": { "type": "Boolean"},
+			"Button 1.7": { "type": "Boolean"},
+			"Button 1.8": { "type": "Boolean"},
+
+			"Button 2.1": { "type": "Boolean"},
+			"Button 2.2": { "type": "Boolean"},
+			"Button 2.3": { "type": "Boolean"},
+			"Button 2.4": { "type": "Boolean"},
+			"Button 2.5": { "type": "Boolean"},
+			"Button 2.6": { "type": "Boolean"},
+			"Button 2.7": { "type": "Boolean"},
+			"Button 2.8": { "type": "Boolean"},
+
+			"Button 3.1": { "type": "Boolean"},
+			"Button 3.2": { "type": "Boolean"},
+			"Button 3.3": { "type": "Boolean"},
+			"Button 3.4": { "type": "Boolean"},
+			"Button 3.5": { "type": "Boolean"},
+			"Button 3.6": { "type": "Boolean"},
+			"Button 3.7": { "type": "Boolean"},
+			"Button 3.8": { "type": "Boolean"},
+
+			"Button 4.1": { "type": "Boolean"},
+			"Button 4.2": { "type": "Boolean"},
+			"Button 4.3": { "type": "Boolean"},
+			"Button 4.4": { "type": "Boolean"},
+			"Button 4.5": { "type": "Boolean"},
+			"Button 4.6": { "type": "Boolean"},
+			"Button 4.7": { "type": "Boolean"},
+			"Button 4.8": { "type": "Boolean"},
+
+			"Button 5.1": { "type": "Boolean"},
+			"Button 5.2": { "type": "Boolean"},
+			"Button 5.3": { "type": "Boolean"},
+			"Button 5.4": { "type": "Boolean"},
+			"Button 5.5": { "type": "Boolean"},
+			"Button 5.6": { "type": "Boolean"},
+			"Button 5.7": { "type": "Boolean"},
+			"Button 5.8": { "type": "Boolean"},
+
+			"Button 6.1": { "type": "Boolean"},
+			"Button 6.2": { "type": "Boolean"},
+			"Button 6.3": { "type": "Boolean"},
+			"Button 6.4": { "type": "Boolean"},
+			"Button 6.5": { "type": "Boolean"},
+			"Button 6.6": { "type": "Boolean"},
+			"Button 6.7": { "type": "Boolean"},
+			"Button 6.8": { "type": "Boolean"},
+
+			"Button 7.1": { "type": "Boolean"},
+			"Button 7.2": { "type": "Boolean"},
+			"Button 7.3": { "type": "Boolean"},
+			"Button 7.4": { "type": "Boolean"},
+			"Button 7.5": { "type": "Boolean"},
+			"Button 7.6": { "type": "Boolean"},
+			"Button 7.7": { "type": "Boolean"},
+			"Button 7.8": { "type": "Boolean"},
+
+			"Button 8.1": { "type": "Boolean"},
+			"Button 8.2": { "type": "Boolean"},
+			"Button 8.3": { "type": "Boolean"},
+			"Button 8.4": { "type": "Boolean"},
+			"Button 8.5": { "type": "Boolean"},
+			"Button 8.6": { "type": "Boolean"},
+			"Button 8.7": { "type": "Boolean"},
+			"Button 8.8": { "type": "Boolean"}
+		},
+
+		"Side Buttons":
+		{
+			"type":"Container",
+			"collapsed":true,
+
+			"Side Button 1":   { "type":"Boolean"},
+			"Side Button 2":   { "type":"Boolean"},
+			"Side Button 3":   { "type":"Boolean"},
+			"Side Button 4":   { "type":"Boolean"},
+			"Side Button 5":   { "type":"Boolean"},
+			"Side Button 6":   { "type":"Boolean"},
+			"Side Button 7":   { "type":"Boolean"},
+			"Side Button 8":   { "type":"Boolean"}
+		}
+	},
+
+	"commands":
+	{
+		"Set Color":
+		{
+			"menu":"",
+			"callback":"setPadColor",
+			"parameters":
+			{
+				"Button Index":
+				{
+					"type":"Enum",
+					"options":
+					{
+						"Bottom Button 1":[0,0],
+						"Bottom Button 2":[0,1],
+						"Bottom Button 3":[0,2],
+						"Bottom Button 4":[0,3],
+						"Main Button 1":[1,0]
+					}
+				},
+
+				"Color":
+				{
+					"type":"Color"
+				}
+			}
+		},
+
+		"Set Color by Note":
+		{
+			"menu":"",
+			"callback":"setColorByNote",
+			"parameters":
+			{
+				"Button Note":
+				{
+					"type":"Integer",
+					"min":11,
+					"max":99
+				},
+
+				"Color":
+				{
+					"type":"Color"
+				}
+			}
+		},
+		
+		"Set Color by Index":
+		{
+			"menu":"",
+			"callback":"setPadColor",
+			"parameters":
+			{
+				"Button Index X":
+				{
+					"type":"Integer",
+					"min":0,
+					"max":63
+				},
+
+				"Color":
+				{
+					"type":"Color"
+				}
+			}
+		},
+
+
+		"Resend Colors":
+		{
+			"menu":"",
+			"callback":"resendColors"
+		},
+
+
+		"Set Midi Mode":
+		{
+			"menu":"",
+			"callback":"setMidiMode"
+		}
+	}
+}
